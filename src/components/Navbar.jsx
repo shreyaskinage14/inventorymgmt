@@ -6,10 +6,10 @@ function NavBar() {
     return (
         <Navbar className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#home">Inventory</Navbar.Brand>
+                {/* <Navbar.Brand href="#home">Inventory</Navbar.Brand> */}
                 <Navbar.Toggle />
                 <Nav className="m-auto">
-                    <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+                    <Nav.Link href="/dashboard">Home</Nav.Link>
                     {/* <Nav.Link href="#features">Features</Nav.Link>
                     <Nav.Link href="#pricing">Pricing</Nav.Link> */}
                 </Nav>

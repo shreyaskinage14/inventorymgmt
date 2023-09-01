@@ -19,9 +19,9 @@ function Dashboard() {
             </Card>
           </Col>
           <Col>
-            <Card onClick={() => navigate("/purchaseorder")}>
+            <Card onClick={() => navigate("/grn")}>
               <Card.Body>
-                <Card.Title>Purchase Order</Card.Title>
+                <Card.Title>GRN</Card.Title>
               </Card.Body>
             </Card>
           </Col>
